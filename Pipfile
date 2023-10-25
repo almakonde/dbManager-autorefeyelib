@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "==1.2.0"
+python-dateutil = "==2.8.1"
+scikit-learn = "==0.23.2"
+pytesseract = "*"
+opencv-python-headless = "*"
+watchdog = "*"
+pyperclip = "*"
+ipython = "*"
+hyperopt = "*"
+matplotlib = "*"
+pydicom = "*"
+numpy = "*"
+scipy = "*"
+
+[dev-packages]
+matplotlib = "*"
+
+[requires]
+python_version = "3.9"
